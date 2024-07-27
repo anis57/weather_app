@@ -1,6 +1,6 @@
 let search = document.getElementById("search");
 let btn = document.getElementById("btn");
-API_key= "66bf4a9676c822b1f82f9ea9f92fa5a6"
+// API_key= "66bf4a9676c822b1f82f9ea9f92fa5a6"
 let box = document.querySelector('.box');
 
 function fetchData() {
