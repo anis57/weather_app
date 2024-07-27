@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+font-weight: 800;
+}
+
+.wrapper{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    text-align: center;
+    background: #e3f2fd;
+}
+input,button{
+    padding: 10px;
+    width: 100%;
+}
+
+button{
+    width: 50%;
+}
+
+.search-area{
+    display: flex;
+}
+
+.box {
+    padding: 20px;
+    margin-top: 10px;
+}
+.box img{
+    width: 150px;
+}
+h1{
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.main_bg{
+   
+  
+   height: 100vh;
+}
+.clouds{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Assets/cloudy.png");
+    min-height: 93vh;
+
+}
+
+.clear{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Assets/clear.gif.gif");
+    min-height: 93vh;
+
+}
+.atmosphere{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Assets/haze.gif.gif");
+    min-height: 93vh;
+
+}
+
+.drizzle{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Assets/drizzle.gif.gif");
+    min-height: 93vh;
+
+}
+
+.rain{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Assets/rain.gif.gif");
+    min-height: 93vh;
+
+}
+
+.snow{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Assets/snow.gif.gif");
+    min-height: 93vh;
+
+}
+
+.thunderstrom{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Assets/thunderstorm.gif.gif");
+    min-height: 93vh;
+
+}
+
+span img{
+    width: 30px;
+    padding-top: 4px;
+    /* padding-left: 3px; */
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}
