@@ -98,7 +98,7 @@ function getCurrentLocation (){
         let lon = position.coords.longitude;
         let lat = position.coords.latitude;
        
-let currentUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_key}`
+let currentUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${API_key}`
 fetch(currentUrl)
 .then((res)=>{
     return res.json()
